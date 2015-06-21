@@ -1,0 +1,226 @@
+## This Codebook describes the columns in the tidy data set 
+## I described the transformations I used to get to the tidy data set in the ReadME.md file in this repo
+ 
+## The first column of the tidy data set is the indexx for the individual taking part in the experiment
+## There are 30 individuals in the study, each one indexed by a number from 1 to 30
+
+## The second column of the tidy data set is the activity
+## There are six possible activities: "walking", "walking upstairs", "walking downstairs", "sitting", "standing", "laying"
+
+## This tidy data set relates to a broader data set of observed values from a study of human activity using smartphones
+## The broader data set had 561 variables
+
+## The 561 variables related to observations from the accelerometer and from the gyroscope
+## In the first instance, time domain signals were captured, filtered, and separated into body and gravity signals
+
+## Subsequently, the body acceleration and angular velocity were derived in time to obtain Jerk signals
+## The magnitude of these three-dimensional signals was calculated
+
+## Finally, a FastFourier Transform was applied to some of these signals
+
+## From the broader data set, I focused on a subset of 66 variables in the "selected data set"
+## These 66 variables included the means and standard deviations of the various observations described above
+
+## In the final calculation of the tidy data set, I calculated the means of each of the 66 variables in the "selected data set"
+ 
+## Note that all of the data sets in the broader data set were normalized to be within the range [-1,1]
+
+## TimeBodyAccelMeanX 
+## This is mean of the mean of the observed Time Domain signal of body acceleration in the X dimension
+
+## TimeBodyAccelMeanY
+## This is the mean of the mean of the observed Time Domain signal of body acceleration in the Y dimension
+
+## TimeBodyAccelMeanZ
+## This is the mean of the mean of the observed Time Domain signal of body acceleration in the Z dimension
+
+## TimeBodyAccelSDX
+## This is the mean of the standard deviation of the observed Time Domain signal of body acceleration in the X dimension
+
+## TimeBodyAccelSDY
+## This is the mean of the standard deviation of the observed Time Domain signal of body acceleration in the Y dimension
+
+## TimeBodyAccelSDZ
+## This is the mean of the standard deviation of the observed Time Domain signal of body acceleration in the Z dimensino
+
+## TimeGravityAccelMeanX
+## This is the mean of the mean of the observed Time Domain signal of gravity acceleration in the X dimension
+
+## TimeGravityAccelMeanY
+## This is the mean of the mean of the observed Time Domain signal of gravity acceleration in the Y dimension
+
+## TimeGravityAccelMeanZ
+## This is the mean of the mean of the observed Time Domain signal of gravity acceleration in the Z dimension
+
+## TimeGravityAccelSDX
+## This is the mean of the standard deviation of the observed Time Domain signal of gravity acceleration in the X dimension
+
+## TimeGravityAccelSDY
+## This is the mean of the standard deviation of the observed Time Domain signal of gravity acceleration in the Y dimension
+
+## TimeGravityAccelSDZ
+## This is the mean of the standard deviation of the observed Time Domain signal of gravity acceleration in the Z dimension
+
+## TimeBodyAccelJerkMeanX
+## This is the mean of the mean of the observed Time Domain signal of jerk signals of the body linear acceleration in X dim
+
+## TimeBodyAccelJerkMeanY
+## This is the mean of the mean of the observed Time Domain signal of jerk signals of the body linear acceleration in Y dim
+
+## TimeBodyAccelJerkMeanZ
+## This is the mean of the mean of the observed Time Domain signal of jerk signals of the body linear acceleraiton in Z dim
+
+## Let SD be standard deviation
+
+## TimeBodyAccelJerkSDX
+## This is the mean of the SD of the observed Time Domain signal of jerk signals of the body linear acceleration in X dim
+
+## TimeBodyAccelJerkSDY
+## This is the mean of the SD of the observed Time Domain signal of jerk signals of the body linear acceleration in Y dim
+
+## TimeBodyAccelJerkSDZ
+## This is the mean of the SD of the observed Time Domain signal of jerk signals of the body linear acceleration in Z dim
+
+## TimeBodyGyroMeanX
+## This is the mean of the mean of the observed Time Domain signal of the angular velocity in X dimension
+
+## TimeBodyGyroMeanY
+## This is the mean of the mean of the observed Time Domain signal of the angular velocity in Y dimension
+
+## TimeBodyGyroMeanZ
+## This is the mean of the mean of the observed Time Domain signal of the angular velocity in Z dimension
+
+## TimeBodyGyroSDX
+## This is the mean of the SD of the observed Time Domain signal of the angular velocity in X dimension
+
+## TimeBodyGyroSDY
+## This is the mean of the SD of the observed Time Domain signal of the angular velocity in Y dimension
+
+## TimeBodyGyroSDZ
+## This is the mean of the SD of the observed Time Domain signal of the angular velocity in Z dimension
+
+## TimeBodyGyroJerkMeanX
+## This is the mean of the mean of the observed Time Domain signal of jerk signals of the angular velocity in X dimension
+
+## TimeBodyGyroJerkMeanY
+## This is the mean of the mean of the observed Time Domain signal of jerk signals of the angular velocity in Y dimension
+
+## TimeBodyGyroJerkMeanZ
+## This is the mean of the mean of the observed Time Domain signal of jerk signals of the angular velocity in Z dimension
+
+## TimeBodyGyroJerkSDX
+## This is the mean of the SD of the observed Time Domain signal of jerk signals of the angular velocity in X dimension
+
+## TimeBodyGyroJerkSDY
+## This is the mean of the SD of the observed Time Domain signal of jerk signals of the angular velocity in Y dimension
+
+## TimeBodyGyroJerkSDZ
+## This is the mean of the SD of the observed Time Domain signal of jerk signals of the angular velocity in Z dimension
+
+## TimeBodyAccelMagMean
+## The mean of the mean of the magnitude of the 3-dimensional signals for Time Domain body linear acceleration
+
+## TimeBodyAccelMagSD
+## The mean of the SD of the magnitude of the 3-dimensional signals for Time Domain body linear acceleration
+
+## TimeGravityAccelMagMean
+## The mean of the mean of the magnitude of the 3-dimensional signals for Time Domain gravity acceleration
+
+## TimeGravityAccelMagSD
+## The mean of the SD of the magnitude of the 3-dimensional signals for Time Domain gravity acceleration
+
+## TimeBodyAccelJerkMagMean
+## The mean of the mean of the magnitude of the 3-dimensional signals for Time Domain body acceleration jerk
+
+## TimeBodyAccelJerkMagSD
+## The mean of the SD of the magnitude of the 3-dimensional signals for Time Domain body acceleration jerk
+
+## TimeBodyGyroMagMean
+## The mean of the mean of the magnitude of the 3-dimensional signals for Time Domain angular velocity
+
+## TimeBodyGyroMagSD
+## The mean of the SD of the magnitude of the 3-dimesional signals for Time Domain angular velocity
+
+## TimeBodyGyroJerkMagMean
+## The mean of the mean of the magnitude of the 3-dimensional signals for Time Domain angular velocity jerk
+
+## TimeBodyGyroJerkMagSD
+## The mean of the SD of the magnitude of the 3-dimensional signals for Time Domain angular velocity jerk
+
+## FourierBodyAccelMeanX
+## The mean of the mean of the Fourier transform of body acceleration in dimension X
+
+## FourierBodyAccelMeanY
+## The mean of the mean of the Fourier transform of body acceleration in dimension Y
+
+## FourierBodyAccelMeanZ
+## The mean of the mean of the Fourier transform of body acceleration in dimension Z
+
+## FourierBodyAccelSDX
+## The mean of the SD of the Fourier transform of body acceleration in dimension X
+
+## FourierBodyAccelSDY
+## The mean of the SD of the Fourier transform of body acceleration in dimension Y
+
+## FourierBodyAccelSDZ
+## The mean of the SD of the Fourier transform of body acceleration in dimension Z
+
+## FourierBodyAccelJerkMeanX
+## The mean of the mean of the Fourier transform of body acceleration jerk in dimension X
+
+## FourierBodyAccelJerkMeanY
+## The mean of the mean of the Fourier transform of body acceleration jerk in dimension Y
+
+## FourierBodyAccelJerkMeanZ
+## The mean of the mean of the Fourier transform of body acceleration jerk in dimension Z
+
+## FourierBodyAccelJerkSDX
+## The mean of the SD of the Fourier transform of body acceleration jerk in dimension X
+
+## FourierBodyAccelJerkSDY
+## The mean of the SD of the Fourier transform of body acceleration jerk in dimension Y
+
+## FourierBodyAccelJerkSDZ
+## The mean of the SD of the Fourier transform of body acceleration jerk in dimension Z
+
+## FourierBodyGyroMeanX
+## The mean of the mean of the Fourier transform of angular velocity in dimension X
+
+## FourierBodyGyroMeanY
+## The mean of the mean of the Fourier transform of angular velocity in dimension Y
+
+## FourierBodyGyroMeanZ
+## The mean of the mean of the Fourier transform of angular velocity in dimension Z
+
+## FourierBodyGyroSDX
+## The mean of the SD of the Fourier transform of angular velocity in dimension X
+
+## FourierBodyGyroSDY
+## The mean of the SD of the Fourier transform of angular velocity in dimension Y
+
+## FourierBodyGyroSDZ
+## The mean of the SD of the Fourier transform of angular velocity in dimension Z
+
+## FourierBodyAccelMagMean
+## The mean of the mean of the magnitude of the Fourier transform of 3-dimensional signals for body linear acceleration
+
+## FourierBodyAccelMagSD
+## The mean of the SD of the magnitude of the Fourier transform of 3-dimensional signals for body linear acceleration
+
+## FourierBodyBodyAccelJerkMagMean
+## The mean of the mean of the magnitude of the Fourier transform of 3-dimensional signals for body acceleration jerk
+
+## FourierBodyBodyAccelJerkMagSD
+## The mean of the SD of the magnitude of the Fourier transform of 3-dimensional signals for body acceleration jerk
+
+## FourierBodyBodyGyroMagMean
+## The mean of the mean of the magnitude of the Fourier transform of 3-dimensional signals for angular velocity
+
+## FourierBodyBodyGyroMagSD
+## The mean of the SD of the magnitude of the Fourier transform of 3-dimensional signals for angular velocity
+
+## FourierBodyBodyGyroJerkMagMean
+## The mean of the mean of the magnitude of the Fourier transform of 3-dimensional signals for angular velocity jerk
+
+## FourierBodyBodyGyroJerkMagSD
+## The mean of the SD of the magnitude of the Fourier transform of 3-dimensional signals for angular velocity jerk
